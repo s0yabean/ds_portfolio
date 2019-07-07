@@ -9,8 +9,8 @@ One of my first starter projects into deep learning and image recognition, I cre
 
 Using a pretrained VGG model, I was able to achieve ~90% accuracy on a validation set using between 200-300 images for each class.
 
-### Churn_Prediction_Ensemble_Model.r 
-##### Last Updated: May 2018 <br>
+### Instagram_Followers_Mining.r 
+##### Last Updated: June 2018 <br>
 ##### Language: R <br>
 ##### Main Libraries: Caret, dplyr <br>
 Description: A paid project for a subscription-based app, predicting the likeliest customers who are about to churn based on in-app data points like logins, app interactions and user history.
@@ -23,5 +23,13 @@ During the ensembling, there was severe overfitting on the training data, as the
 
 This suggests that the main bottleneck is not from algorithms, perhaps we need to focus on getting more/ better data instead.
 
+### Instagram_Followers_Mining.r 
+##### Last Updated: May 2018 <br>
+##### Language: R, SQL <br>
+##### Main Libraries: Dplyr, tidyr <br>
+Description: We would like to measure someone's popularity on Instagram on automation.
 
+Given human profiles on a non-Instagram app, I wrote a script that mines through their text input (user-generated) and outputs their Instagram follower and following counts, if their Instagram handle is present in their bio. 
+
+Using a combination of regex, extracting HTML and parsing for the right data, dataframe manipulation and database upserting, we are able to get a running count of users and their popularity on Instagram.
 
